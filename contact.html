@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ｜Gold Home株式会社｜無料相談・見積り</title>
+<meta name="description" content="Gold Homeへのお問い合わせフォーム。電話・LINE・フォームの3つの方法で無料相談を受け付けています。写真添付にも対応。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">GOLD HOME</a>
+    <ul>
+      <li><a href="about.html">私たちについて</a></li>
+      <li><a href="service.html">サービス</a></li>
+      <li><a href="works.html">施工事例</a></li>
+      <li><a href="reason.html">選ばれる理由</a></li>
+      <li><a href="flow.html">施工の流れ</a></li>
+      <li><a href="price.html">料金</a></li>
+      <li><a href="voice.html">お客様の声</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="blog.html">お知らせ</a></li>
+    </ul>
+    <div class="right">
+      <div class="tel">お電話<b>06-4400-4323</b></div>
+      <a class="btn" href="contact.html">無料相談</a>
+      <button class="hamburger" aria-label="メニュー">☰</button>
+    </div>
+  </div>
+</header>
+<div class="badges"><div class="wrap"><span class="badge">見積り無料</span><span class="badge">契約前キャンセル可</span><span class="badge">しつこい営業なし</span></div></div>
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="en">CONTACT</span>
+    <h1>お問い合わせ</h1>
+    <p>ご相談・お見積りは無料です。3つの方法からお選びください。</p>
+  </div>
+</section>
+
+<nav class="crumb"><div class="wrap"><a href="index.html">ホーム</a><span class="sep">›</span><span>お問い合わせ</span></div></nav>
+
+<!-- ===== 3つの相談方法 ===== -->
+<section class="blk">
+  <div class="wrap">
+    <div class="head"><span class="en">METHOD</span><h2 class="serif">3つの相談方法</h2></div>
+    <div class="contact-methods">
+      <div class="cm">
+        <h3>☎ 電話で相談</h3>
+        <p>平日 9:00〜18:00</p>
+        <div class="big">06-4400-4323</div>
+        <a class="btn dk" href="tel:0664004323">今すぐ電話する</a>
+      </div>
+      <div class="cm">
+        <h3>LINE で相談</h3>
+        <p>24時間受付・写真送付可</p>
+        <div class="big">お気軽に</div>
+        <a class="btn line" href="#" onclick="return false">LINE で相談する</a>
+      </div>
+      <div class="cm">
+        <h3>✉ フォームで送信</h3>
+        <p>写真添付可・自動返信</p>
+        <div class="big">下記フォーム</div>
+        <a class="btn" href="#form">フォームに移動 →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LINE友だち追加 ===== -->
+<section class="blk alt">
+  <div class="wrap tc">
+    <div class="head"><span class="en">LINE</span><h2 class="serif">LINE 公式アカウントが便利です</h2></div>
+    <p class="intro-p">
+      <b>24時間受付・写真送信可</b>。お困りの箇所を写真で送っていただければ、<br>
+      翌営業日にAIを活用した概算お見積りをお返しできます（詳細は現地調査後）。
+    </p>
+    <div style="max-width:320px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:8px;padding:26px">
+      <div style="width:180px;height:180px;background:#f0f0f0;border:1px dashed #ccc;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px">QRコード<br>（LINE URL 受領後）</div>
+      <a class="btn line" href="#" onclick="return false" style="width:100%">LINE で友だち追加</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== フォーム ===== -->
+<section class="blk" id="form">
+  <div class="wrap">
+    <div class="head"><span class="en">FORM</span><h2 class="serif">お問い合わせフォーム</h2><p>いただいた内容には、平日24時間以内にお返事いたします。</p></div>
+    <form class="form-wrap" action="#" method="post" enctype="multipart/form-data" onsubmit="alert('送信内容の確認画面はデモです。実装時にサーバーサイド処理を接続します。');return false">
+      <div class="form-row">
+        <label>お名前<span class="req">必須</span></label>
+        <input type="text" name="name" required placeholder="山田 太郎">
+      </div>
+      <div class="form-row">
+        <label>フリガナ<span class="opt">任意</span></label>
+        <input type="text" name="kana" placeholder="ヤマダ タロウ">
+      </div>
+      <div class="form-row">
+        <label>電話番号<span class="req">必須</span></label>
+        <input type="tel" name="tel" required placeholder="090-1234-5678">
+      </div>
+      <div class="form-row">
+        <label>メールアドレス<span class="req">必須</span></label>
+        <input type="email" name="email" required placeholder="example@example.com">
+      </div>
+      <div class="form-row">
+        <label>物件所在地（市町村まで）<span class="req">必須</span></label>
+        <input type="text" name="area" required placeholder="兵庫県尼崎市">
+      </div>
+      <div class="form-row">
+        <label>ご相談内容の分類<span class="req">必須</span></label>
+        <select name="category" required>
+          <option value="">選択してください</option>
+          <option>住宅リフォーム</option>
+          <option>水回りリフォーム</option>
+          <option>店舗内装</option>
+          <option>その他</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label>物件種別<span class="opt">任意</span></label>
+        <select name="type">
+          <option value="">選択してください</option>
+          <option>戸建て</option>
+          <option>マンション</option>
+          <option>店舗</option>
+          <option>オフィス</option>
+          <option>その他</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label>ご希望の連絡方法<span class="opt">任意</span></label>
+        <div class="radios">
+          <label><input type="radio" name="method" value="tel">電話</label>
+          <label><input type="radio" name="method" value="mail">メール</label>
+          <label><input type="radio" name="method" value="line">LINE</label>
+        </div>
+      </div>
+      <div class="form-row">
+        <label>ご希望の連絡時間帯<span class="opt">任意</span></label>
+        <div class="radios">
+          <label><input type="radio" name="time" value="9-12">9:00〜12:00</label>
+          <label><input type="radio" name="time" value="12-17">12:00〜17:00</label>
+          <label><input type="radio" name="time" value="17-20">17:00〜20:00</label>
+          <label><input type="radio" name="time" value="any">指定なし</label>
+        </div>
+      </div>
+      <div class="form-row">
+        <label>ご相談内容<span class="opt">任意</span></label>
+        <textarea name="message" placeholder="ご要望・気になる箇所・工事したい場所などをご記入ください"></textarea>
+      </div>
+      <div class="form-row">
+        <label>お写真の添付<span class="opt">任意</span></label>
+        <input type="file" name="photos" multiple accept="image/*">
+        <p style="font-size:12px;color:var(--muted);margin-top:6px">※複数ファイル選択可能／合計10MBまで</p>
+      </div>
+
+      <div style="background:#fff8ea;border:1px solid var(--gold);border-radius:6px;padding:14px 20px;font-size:13px;color:var(--ink2);margin-bottom:20px">
+        <b style="color:var(--gold)">安心のお約束</b><br>
+        見積り無料　／　契約前キャンセル可　／　しつこい営業なし
+      </div>
+
+      <div class="form-submit">
+        <button type="submit">送信内容を確認する</button>
+        <p class="form-note">プライバシーポリシー・特定商取引法に同意のうえ送信してください。</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ===== 地図 ===== -->
+<section class="blk alt">
+  <div class="wrap">
+    <div class="head"><span class="en">ACCESS</span><h2 class="serif">アクセス</h2></div>
+    <div class="grid2">
+      <div>
+        <iframe src="https://www.google.com/maps?q=%E5%85%B5%E5%BA%AB%E7%9C%8C%E5%B0%BC%E5%B4%8E%E5%B8%82%E5%A4%A7%E5%BA%84%E5%8C%974-8-11&output=embed" width="100%" height="360" style="border:0;border-radius:6px" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div>
+        <h3 class="serif" style="font-size:20px;margin-bottom:14px">Gold Home 株式会社 本社</h3>
+        <p style="line-height:2">〒660-0063<br>兵庫県尼崎市大庄北4-8-11<br><br>
+          <b>電話</b> 06-4400-4323<br>
+          <b>営業時間</b> 平日 9:00〜18:00<br>
+          <b>定休日</b> 不定休<br>
+          <b>FAX</b> 06-4400-4351<br>
+          <b>メール</b> goldhome0912@gmail.com
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fcols">
+      <div class="co"><b>Gold Home 株式会社</b>〒660-0063 兵庫県尼崎市大庄北4-8-11<br>TEL 06-4400-4323 ／ FAX 06-4400-4351<br>Mail goldhome0912@gmail.com<br>設立 2025年9月12日 ／ 資本金 300万円<br>建設業許可 申請中</div>
+      <div><h4>サイトマップ</h4><a href="about.html">私たちについて</a><a href="service.html">サービス</a><a href="works.html">施工事例</a><a href="reason.html">選ばれる理由</a><a href="flow.html">施工の流れ</a><a href="price.html">料金・費用</a><a href="voice.html">お客様の声</a><a href="faq.html">よくある質問</a><a href="blog.html">お知らせ・ブログ</a><a href="contact.html">お問い合わせ</a></div>
+      <div><h4>SNS・LINE</h4><div class="sns"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="LINE">L</a><a href="#" aria-label="Google">G</a></div><p style="margin-top:16px;line-height:1.9">営業時間<br>平日 9:00〜18:00<br>定休日：不定休</p></div>
+    </div>
+    <div class="copy">© 2026 Gold Home Co., Ltd. All Rights Reserved.　<a href="privacy.html">プライバシーポリシー</a>｜<a href="tokutei.html">特定商取引法に基づく表記</a></div>
+  </div>
+</footer>
+
+<div class="mobile-cta"><div class="row"><a href="tel:0664004323"><b>☎</b>電話</a><a href="#" class="line" onclick="return false"><b>L</b>LINE</a><a href="contact.html" class="form"><b>✉</b>フォーム</a></div></div>
+
+</body>
+</html>
