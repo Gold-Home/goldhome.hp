@@ -350,7 +350,12 @@ details.faq .a{padding:0 26px 20px 52px;font-size:14px;color:var(--ink2);line-he
 
 /* -------------------------- 23. フッター ------------------------------- */
 footer{background:var(--ink3);color:#9fb0c2;padding:60px 0 30px;font-size:13px}
-.fcols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:34px}
+.fcols{display:grid;grid-template-columns:2fr 1fr;gap:40px;margin-bottom:34px;align-items:start}
+.ig-link{display:inline-flex;align-items:center;gap:12px;background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);color:#fff;padding:14px 22px;border-radius:8px;transition:transform .2s,box-shadow .2s;text-decoration:none;line-height:1.4}
+.ig-link:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(253,29,29,.25);color:#fff}
+.ig-link .ig-icon{width:26px;height:26px;flex:0 0 26px}
+.ig-link b{color:#fff;display:block;font-size:14px;letter-spacing:.05em;font-weight:500}
+.ig-link .handle{color:#fff;font-size:13px;opacity:.95}
 .fcols h4,.fcols .fh-title{color:#fff;font-size:14px;margin-bottom:14px;font-weight:500;letter-spacing:.05em;display:block}
 .fcols a{color:#9fb0c2;line-height:2.2}
 .fcols a:hover{color:var(--gold)}
