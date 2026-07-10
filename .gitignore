@@ -3,3 +3,9 @@
 Thumbs.db
 *.log
 ~$*
+
+# Python
+scripts/.env
+scripts/__pycache__/
+scripts/.venv/
+scripts/*.pyc
