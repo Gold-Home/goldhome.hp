@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お知らせ｜Gold Home株式会社</title>
+<meta name="description" content="Gold Home株式会社からのお知らせ・施工報告・イベント情報などを掲載しています。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="canonical" href="https://gold-home.github.io/goldhome.hp/news.html">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo"><img src="images/01_hero/logo.jpg" alt="Gold Home株式会社"><span class="logo-text">Gold Home</span></a>
+    <ul>
+      <li><a href="about.html">私たちについて</a></li>
+      <li><a href="service.html">サービス</a></li>
+      <li><a href="works.html">施工事例</a></li>
+      <li><a href="reason.html">選ばれる理由</a></li>
+      <li><a href="price.html">料金</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="news.html">お知らせ</a></li>
+    </ul>
+    <div class="right">
+      <div class="tel">お電話<b>06-4400-4323</b></div>
+      <a class="btn" href="contact.html">無料相談</a>
+      <button class="hamburger" aria-label="メニュー">☰</button>
+    </div>
+  </div>
+</header>
+<div class="badges"><div class="wrap"><span class="badge">見積り無料</span><span class="badge">契約前キャンセル可</span><span class="badge">しつこい営業なし</span></div></div>
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="en">NEWS</span>
+    <h1>お知らせ</h1>
+    <p>施工完了報告・案件進捗・イベント情報などを随時お知らせいたします。</p>
+  </div>
+</section>
+
+<nav class="crumb"><div class="wrap"><a href="index.html">ホーム</a><span class="sep">›</span><span>お知らせ</span></div></nav>
+
+<section class="blk">
+  <div class="wrap">
+    <div id="news-list" class="news-grid">
+      <p class="news-empty">読み込み中…</p>
+    </div>
+    <nav id="news-pager" class="news-pager" aria-label="ページ送り"></nav>
+  </div>
+</section>
+
+<section class="cta-block">
+  <div class="bg" style="background-image:url('images/07_contact/contact_CTAブロック背景.jpg')"></div>
+  <div class="wrap">
+    <h2>内装リフォーム・店舗内装のご相談は無料でお受けしています</h2>
+    <p class="sub">見積り・現地調査は無料　／　契約前キャンセル可　／　しつこい営業なし</p>
+    <div class="row">
+      <a class="btn dk lg" href="tel:0664004323">☎ 電話で相談 06-4400-4323</a>
+      <a class="btn lg" href="contact.html">✉ フォームで問い合わせ</a>
+      <a class="btn line lg" href="https://lin.ee/wgbpxBG" target="_blank" rel="noopener">LINE で相談</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fcols">
+      <div class="co">
+        <b>Gold Home 株式会社</b>
+        〒660-0063 兵庫県尼崎市大庄北4-8-11<br>
+        TEL 06-4400-4323 ／ FAX 06-4400-4351<br>
+        Mail goldhome0912@gmail.com<br>
+        設立 2025年9月12日 ／ 資本金 300万円<br>
+        建設業許可 申請中<br>
+        営業時間 平日 9:00〜18:00 ／ 定休日：不定休
+      </div>
+      <div>
+        <span class="fh-title">SNS</span>
+        <a href="https://www.instagram.com/goldhome.jp/" target="_blank" rel="noopener" class="ig-link">
+          <svg class="ig-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2.5" y="2.5" width="19" height="19" rx="5" stroke="#fff" stroke-width="1.6"/>
+            <circle cx="12" cy="12" r="4.5" stroke="#fff" stroke-width="1.6"/>
+            <circle cx="17.6" cy="6.4" r="1.2" fill="#fff"/>
+          </svg>
+          <div>
+            <b>Instagram</b>
+            <span class="handle">@goldhome.jp</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="copy">© 2026 Gold Home Co., Ltd. All Rights Reserved.　<a href="privacy.html">プライバシーポリシー</a>｜<a href="tokutei.html">特定商取引法に基づく表記</a></div>
+  </div>
+</footer>
+
+<div class="mobile-cta"><div class="row"><a href="tel:0664004323"><b>☎</b>電話</a><a href="https://lin.ee/wgbpxBG" class="line" target="_blank" rel="noopener"><b>L</b>LINE</a><a href="contact.html" class="form"><b>✉</b>フォーム</a></div></div>
+
+<script src="scripts/news.js"></script>
+<script>GoldHomeNews.renderFullList(document.getElementById('news-list'), document.getElementById('news-pager'));</script>
+
+</body>
+</html>

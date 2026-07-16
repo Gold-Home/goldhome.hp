@@ -54,6 +54,7 @@
       <li><a href="reason.html">選ばれる理由</a></li>
       <li><a href="price.html">料金</a></li>
       <li><a href="faq.html">FAQ</a></li>
+      <li><a href="news.html">お知らせ</a></li>
     </ul>
     <div class="right">
       <div class="tel">お電話<b>06-4400-4323</b></div>
@@ -191,6 +192,17 @@
   </div>
 </section>
 
+<!-- ===== お知らせ ===== -->
+<section class="blk alt">
+  <div class="wrap">
+    <div class="head"><span class="en">NEWS</span><h2 class="serif">お知らせ</h2><p>施工完了・案件進捗・イベント情報などを随時掲載しています。</p></div>
+    <ul id="news-top" class="news-list">
+      <li class="news-empty">読み込み中…</li>
+    </ul>
+    <div class="news-more"><a class="link-more" href="news.html">お知らせ一覧を見る →</a></div>
+  </div>
+</section>
+
 <!-- ===== ⑥ 大型CTAブロック ===== -->
 <section class="cta-block">
   <div class="bg" style="background-image:url('images/07_contact/contact_CTAブロック背景.jpg')"></div>
@@ -245,6 +257,9 @@
     <a href="contact.html" class="form"><b>✉</b>フォーム</a>
   </div>
 </div>
+
+<script src="scripts/news.js"></script>
+<script>GoldHomeNews.renderTopList(document.getElementById('news-top'));</script>
 
 </body>
 </html>

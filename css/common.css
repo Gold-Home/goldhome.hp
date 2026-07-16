@@ -456,3 +456,56 @@ footer{background:var(--ink3);color:#9fb0c2;padding:60px 0 30px;font-size:13px}
 .link-more{display:inline-block;color:var(--ink);font-weight:500;border-bottom:2px solid var(--gold);padding-bottom:3px;font-size:15px;transition:color .2s}
 .link-more:hover{color:var(--gold)}
 .intro-p{max-width:820px;margin:0 auto 40px;font-size:15px;color:var(--ink2);line-height:2;text-align:center}
+
+/* -------------------------- 27. お知らせ ------------------------------- */
+.news-list{list-style:none;max-width:880px;margin:0 auto;border-top:1px solid var(--line)}
+.news-list li{border-bottom:1px solid var(--line)}
+.news-list li a{display:flex;gap:24px;padding:18px 8px;align-items:baseline;transition:background .2s}
+.news-list li a:hover{background:var(--bg-alt)}
+.news-list time{flex:0 0 auto;color:var(--muted);font-size:14px;letter-spacing:.05em;min-width:96px;font-family:'Cormorant Garamond',var(--serif-fw)}
+.news-list .news-title{color:var(--ink);font-size:15px;line-height:1.6}
+.news-list .news-empty{padding:24px;text-align:center;color:var(--muted);font-size:14px}
+.news-more{margin-top:28px;text-align:center}
+
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;max-width:1080px;margin:0 auto}
+.news-card{background:#fff;border:1px solid var(--line);border-radius:6px;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.news-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.06)}
+.news-card a{display:block;color:inherit}
+.news-thumb{aspect-ratio:16/10;background:var(--ph);overflow:hidden}
+.news-thumb img{width:100%;height:100%;object-fit:cover}
+.news-card .news-body{padding:18px 20px 22px}
+.news-card time{color:var(--muted);font-size:13px;letter-spacing:.05em;font-family:'Cormorant Garamond',var(--serif-fw)}
+.news-card h3{font-size:16px;font-weight:600;line-height:1.6;margin-top:6px;color:var(--ink)}
+.news-empty{text-align:center;color:var(--muted);padding:40px 0}
+
+.news-article{max-width:800px;margin:0 auto}
+.news-article .news-date{color:var(--muted);font-size:14px;letter-spacing:.05em;font-family:'Cormorant Garamond',var(--serif-fw)}
+.news-article .news-h1{font-family:var(--serif-fw);font-size:30px;font-weight:600;line-height:1.5;margin:8px 0 28px;color:var(--ink)}
+.news-hero{margin:0 0 32px;border-radius:6px;overflow:hidden;background:var(--ph)}
+.news-hero img{width:100%;height:auto;display:block}
+.news-content{font-size:16px;line-height:1.95;color:var(--ink2)}
+.news-content p{margin:0 0 1.2em}
+.news-content h2{font-family:var(--serif-fw);font-size:22px;margin:2em 0 .8em;color:var(--ink);border-left:4px solid var(--gold);padding-left:12px}
+.news-content h3{font-size:18px;margin:1.6em 0 .6em;color:var(--ink)}
+.news-content img{margin:1em 0;border-radius:4px}
+.news-content a{color:var(--gold);text-decoration:underline}
+.news-content ul,.news-content ol{margin:0 0 1.2em 1.6em}
+.news-pager{margin:48px auto 0;display:flex;justify-content:center;flex-wrap:wrap;gap:6px;font-size:14px}
+.news-pager .pg-num,.news-pager .pg-nav{display:inline-flex;align-items:center;justify-content:center;min-width:38px;height:38px;padding:0 12px;border:1px solid var(--line);color:var(--ink);background:#fff;transition:background .2s,border-color .2s,color .2s;letter-spacing:.02em}
+.news-pager .pg-num:hover,.news-pager .pg-nav:hover{background:var(--bg-alt);border-color:var(--gold)}
+.news-pager .pg-current{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:600;cursor:default}
+.news-pager .pg-current:hover{background:var(--ink);border-color:var(--ink)}
+.news-pager .pg-disabled{color:var(--muted);background:var(--bg-alt);border-color:var(--line);cursor:not-allowed}
+.news-pager .pg-disabled:hover{background:var(--bg-alt);border-color:var(--line)}
+.news-pager .pg-ellipsis{display:inline-flex;align-items:center;padding:0 4px;color:var(--muted)}
+
+.news-back{margin-top:48px;text-align:center}
+.news-back a{color:var(--muted);font-size:14px;border-bottom:1px solid var(--line);padding-bottom:2px}
+.news-back a:hover{color:var(--gold)}
+
+@media (max-width:820px){
+  .news-grid{grid-template-columns:1fr;gap:20px}
+  .news-list li a{flex-direction:column;gap:4px;padding:14px 4px}
+  .news-list time{min-width:0}
+  .news-article .news-h1{font-size:22px}
+}
